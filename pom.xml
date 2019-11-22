@@ -52,4 +52,16 @@
     </snapshotRepository>
     
   </distributionManagement>
+  <settings>
+	  <servers>
+	 
+		<server>
+		  <id>deployment</id>
+		  <username>shivansh</username>
+		  <password>shivansh</password>
+		</server>
+		
+
+	  </servers>
+  </settings>
 </project>
