@@ -39,7 +39,7 @@
 
       <id>deployment</id>
       <name>Internal Snapshots releases</name>
-      <url>http://localhost:8081/repository/demo/</url>
+      <url>http://localhost:8081/repository/sample-snap/</url>
 
     </repository>
 
@@ -52,16 +52,5 @@
     </snapshotRepository>
     
   </distributionManagement>
-  <settings>
-	  <servers>
-	 
-		<server>
-		  <id>deployment</id>
-		  <username>shivansh</username>
-		  <password>shivansh</password>
-		</server>
-		
-
-	  </servers>
-  </settings>
+  
 </project>
