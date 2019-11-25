@@ -34,7 +34,7 @@
 
     </plugins>
   </build>
-  <distributionManagement>
+ <!-- <distributionManagement>
 	<repository>
 
       <id>deployment</id>
@@ -52,5 +52,6 @@
     </snapshotRepository>
     
   </distributionManagement>
+  -->
   
 </project>
