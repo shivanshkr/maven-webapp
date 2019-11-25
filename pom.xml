@@ -45,7 +45,7 @@
 -->
     <snapshotRepository>
 
-      <id>deployment</id>
+      <id>sample-snap</id>
       <name>Internal Snapshots releases</name>
       <url>http://localhost:8081/repository/sample-snap/</url>
 
