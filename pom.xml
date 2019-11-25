@@ -43,13 +43,13 @@
 
     </repository>
 -->
-    <snapshotRepository>
+    <Repository>
 
-      <id>sample-snap</id>
-      <name>Internal Snapshots releases</name>
+      <id>sample</id>
+      <name>releases</name>
       <url>http://localhost:8081/repository/sample/</url>
 
-    </snapshotRepository>
+    </Repository>
     
   </distributionManagement>
   
