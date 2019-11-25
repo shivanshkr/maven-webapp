@@ -43,13 +43,13 @@
 
     </repository>
 -->
-    <Repository>
+    <repository>
 
       <id>sample</id>
       <name>releases</name>
       <url>http://localhost:8081/repository/sample/</url>
 
-    </Repository>
+    </repository>
     
   </distributionManagement>
   
