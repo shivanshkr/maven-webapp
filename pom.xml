@@ -4,7 +4,7 @@
   <groupId>com.infy.demos</groupId>
   <artifactId>maven-webapp</artifactId>
   <packaging>war</packaging>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.2-SNAPSHOT</version>
   <name>maven-webapp Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -37,19 +37,20 @@
   <distributionManagement>
 	<repository>
 
-      <id>deployment</id>
+      <id>sample</id>
       <name>Internal releases</name>
-      <url>http://localhost:8081/repository/sample-snap/</url>
+      <url>http://localhost:8081/repository/sample/</url>
 
     </repository>
-
     <snapshotRepository>
 
-      <id>deployment</id>
+      <id>sample</id>
       <name>Internal Snapshots releases</name>
       <url>http://localhost:8081/repository/sample-snap/</url>
 
     </snapshotRepository>
+
+
     
   </distributionManagement>
   
