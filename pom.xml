@@ -35,21 +35,22 @@
     </plugins>
   </build>
   <distributionManagement>
-	<!--<repository>
-
-      <id>deployment</id>
-      <name>Internal releases</name>
-      <url>http://localhost:8081/repository/sample-snap/</url>
-
-    </repository>
--->
-    <repository>
+	<repository>
 
       <id>sample</id>
-      <name>releases</name>
+      <name>Internal releases</name>
       <url>http://localhost:8081/repository/sample/</url>
 
     </repository>
+    <snapshotRepository>
+
+      <id>sample</id>
+      <name>Internal Snapshots releases</name>
+      <url>http://localhost:8081/repository/sample-snap/</url>
+
+    </snapshotRepository>
+
+
     
   </distributionManagement>
   
