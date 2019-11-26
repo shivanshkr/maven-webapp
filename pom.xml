@@ -39,14 +39,14 @@
 
       <id>sample</id>
       <name>Internal releases</name>
-      <url>http://localhost:8081/repository/sample/</url>
+      <url>http://localhost:8081/repository/demo/</url>
 
     </repository>
     <snapshotRepository>
 
       <id>sample</id>
       <name>Internal Snapshots releases</name>
-      <url>http://localhost:8081/repository/sample-snap/</url>
+      <url>http://localhost:8081/repository/demo/</url>
 
     </snapshotRepository>
 
